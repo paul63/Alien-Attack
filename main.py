@@ -49,7 +49,7 @@ def create_defences():
     defences.clear_all()
     for i in range(4):
         for j in range(3):
-            defences.add(Defence(100 + i * 160 + j * 40, const.HEIGHT - player.height - 50))
+            defences.add(Defence(120 + i * 160 + j * 40, const.HEIGHT - player.height - 50))
 
 def start_game(reset_defences):
     global short_pause
